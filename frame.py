@@ -1,5 +1,5 @@
 import cv2
-vidcap = cv2.VideoCapture('/Users/KaTaiHo/Downloads/beach.mp4')
+vidcap = cv2.VideoCapture('./beach.mp4')
 success,image = vidcap.read()
 count = 0
 success = True
